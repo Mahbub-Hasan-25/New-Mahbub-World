@@ -61,8 +61,16 @@ body {
   border-radius: 10px;
 }
 #experi-1{
-  border-left: 7px green solid;
+  border-left: 7px solid;
+  border-image: linear-gradient(yellowgreen, green, blue);
+  border-image-slice: 1;
 }
 #experi-2{
-  border-left: 7px green solid;
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, green, yellowgreen);
+  border-image-slice: 1;
+}
+footer{
+  margin-top: 50px;
+  text-align: center;
 }
